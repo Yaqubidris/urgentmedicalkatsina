@@ -12,7 +12,7 @@ const LAST_UPDATED = "Updated: [edit me]";
 const PAYSTACK_USD_URL = "https://paystack.shop/pay/fu5ypkq8yb";
 const PAYSTACK_NGN_URL = "https://paystack.shop/pay/-v5l2no48v";
 const USDT_TRC20 = "TXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-const CONTACT_EMAIL = "hafsatbako@gmail.com";
+const CONTACT_EMAIL = "asiya@gmail.com";
 const CONTACT_PHONE = "070123456789";
 const EMAIL_BLURB_TEMPLATE =
   "Hello,\nAn urgent fundraiser is open for life-saving care at Crystal Hospital, Katsina.\nIf you can help, please donate or forward this message.\nCampaign link: {{PAGE_LINK}}";
