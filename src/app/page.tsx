@@ -4,14 +4,14 @@ import { useEffect, useMemo, useState } from "react";
 
 const GOAL_USD = 10000;
 const GOAL_NGN = 13000000;
-const RAISED_USD = 2850;
-const RAISED_NGN = 3705000;
+const RAISED_USD = 2250;
+const RAISED_NGN = 2925000;
 const LAUNCH_DATE_ISO = "2026-02-12";
 const TIMELINE_DAYS = 90;
 const LAST_UPDATED = "Updated: [edit me]";
 const PAYSTACK_USD_URL = "https://paystack.shop/pay/fu5ypkq8yb";
 const PAYSTACK_NGN_URL = "https://paystack.shop/pay/-v5l2no48v";
-const USDT_TRC20 = "TXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+const USDT_TRC20 = "TSEtgatGNXSP8bD4GdpjtPgCxwwqoiezsS";
 const CONTACT_EMAIL = "asiya@gmail.com";
 const CONTACT_PHONE = "070123456789";
 const EMAIL_BLURB_TEMPLATE =
@@ -31,10 +31,11 @@ const DOCUMENTS = [
 ] as const;
 
 const FUNDING_BREAKDOWN = [
-  { label: "Coronary Artery Procedure & Theatre", amount: 5200000 },
-  { label: "Cancer Diagnostics & Chemotherapy", amount: 4300000 },
-  { label: "Hospital Admission, Monitoring & Drugs", amount: 2100000 },
-  { label: "Emergency Transport & Recovery Support", amount: 1400000 },
+  { label: "Coronary Artery Procedure & Theatre", amount: 8450000 
+ },
+  { label: "Cancer Diagnostics & Chemotherapy", amount: 1950000 },
+  { label: "Surgical Admission, Monitoring & Drugs", amount: 1625000 },
+  { label: "Emergency Transport & Recovery Support", amount: 975000 },
 ] as const;
 
 const UPDATES = [
@@ -352,9 +353,9 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <p className="mt-3 text-xs text-slate-500">
+          {/* <p className="mt-3 text-xs text-slate-500">
             If the document doesn&apos;t open, please check back - upload in progress.
-          </p>
+          </p> */}
           <div className="mt-4 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
             <p className="font-semibold">Verification available</p>
             <p className="mt-1">
